@@ -80,15 +80,16 @@ body {
     font-family: "Archivo";
     font-weight: 700;
     padding: 10px;
-    border: 3px solid #FF407D;
-    background-color: #ffff;
-    border-radius: 5px;
+    border: 0;
+    background-color: transparent;
+    color: #40679E
 }
 
 .contact:hover {
     background-color: #FFCAD4;
     color: #FF407D;
     border-color: white;
+    border-radius: 10px;
 }
 
 #hero {
@@ -241,7 +242,7 @@ hr {
     display: flex;
     flex-direction: column;
     background-color: #fffbf9;
-    border:1px solid #ffa3b4;
+
     border-radius: 20px;
     font-family: "Zilla Slab";
     transition: all 0.5s ease-in-out;
